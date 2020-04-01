@@ -3,10 +3,19 @@
     <head>
         <meta charset="utf-8">
             <title>dongyangou.souls.git </title>
-            
-    </head>
+   </head>
     <h1>第一个web页面strat</h1>
     <script>
         document.write(Date());        
     </script>
+    <body>
+        <!-- / /javascript 改变页面文字 -->
+        <p id="a">s啥玩意啊</p>
+        <button type="button" onclick="document.getElementById('a').innerHTML='没有惊喜'">点击一下有惊喜</button>
+        <button type="button" onclick="document.getElementById('a').innerHTML='我又回来了'">再点一下</button>
+        <!-- / /改变图片地址 -->
+        <button type="button" onclick="document.getElementById('img').src='.github\workflows\image\timg(1).jpg'">换个图片</button>
+        <img src=".github\workflows\image\timg.jpg" id = "img" style="text-align: center;"></img>
+        <button type="button" onclick="document.getElementById('img').src='.github\workflows\image\timg.jpg'">换回来</button>
+    </body>
 </html>
