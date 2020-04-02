@@ -37,10 +37,43 @@
         <!-- javascript改变文字 -->
         <p id="no">不要说话</p>
         <button onclick="chiled()" >按钮</button><button onclick="chiled2()" >下一句</button>
+        <script>
+            function chiled(){
+                document.getElementById('no').innerHTML='愿意用黑色铅笔在地上画圈圈';
+            }
+        </script>
         <!-- 弹框 -->
         <button type="button" onclick="mylove()" id="mylove">弹出提示框</button>
+        <script>
+            function mylove(){
+                window.alert("弹窗提示");
+            }
+        </script>
         <!-- 引入外部javascript文件 -->
         <p id="s">测试文件</p>
         <button type="button" onclick="s()">测试按钮</button>
+        <!-- 函数计算 -->
+        <p id="sa">函数计算</p>
+        <button onclick="sa()" type="button">点击计算结果</button>
+        <!-- 大写敏感 -->
+        <p id="sb">函数里面有lsatname和lastName</p>
+        <button onclick="sb()">这里显示的是lastname</button>
+        <button onclick="sb1()">这里显示的是lastName</button>
+        <!-- 字符串和数据的引用 -->
+        <p id="sc"></p>
+        <button onclick="sc()">chekedme</button>
+
+        <!-- 运算符应用 -->
+        <p id="sd"></p>
+        <button onclick="sd()" type="button" weight = "30" color="red">按钮</button>
+
+
+
+
+
+
+
+
+
     </body>
 </html>
