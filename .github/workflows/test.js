@@ -58,3 +58,39 @@ function sd(){
     var f = a /= b;
     document.getElementById("sd").innerHTML= "a%=b = " + d+"<br>"+"a*= c =" +e+"<br>"+" a /= b =" +f
 }
+
+function se(){
+    var person = {
+        name : "zhangqi",
+        age : 12,
+    }
+    document.getElementById("se").innerHTML = "姓名 : " +person.name+"<br>"+"年龄: "+person.age;
+}
+
+function sf(){
+    var person = {
+        name : "zhangqi",
+        age : 18,
+        fullname : function(){
+                   return this.name +this.age
+                   }
+    }
+    document.getElementById("sf").style.display="block";
+    document.getElementById("sf").innerHTML = person.fullname();  
+    
+    
+}
+
+function sg(){
+    document.getElementById("sf").style.display="none"
+}
+
+function aa(aa,ab){
+    if((aa == null || aa == "") || (ab == null || ab == "")){
+        var ac = aa*ab;
+        document.getElementById("ac").innerHTML = ac;
+    }else{
+        window.alert("输入错误,不是数字或者是空的")
+    }
+    
+}
