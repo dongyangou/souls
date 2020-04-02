@@ -2,7 +2,16 @@
 <html>
     <head>
         <meta charset="utf-8">
-            <title>dongyangou.souls.git </title>
+            <title>souls</title>
+            <script>
+                function chiled(){
+                    document.getElementById('no').innerHTML='愿意在角落唱沙哑的歌'
+                }
+                function chiled2(){
+                    document.getElementById('no').innerHTML='灯光再亮也抱住你'
+                }
+            </script>
+        <script src="F:\VScode\github\souls\.github\workflows\test.js"></script>
    </head>
     <h1>第一个web页面strat</h1>
     <script>
@@ -14,8 +23,24 @@
         <button type="button" onclick="document.getElementById('a').innerHTML='没有惊喜'">点击一下有惊喜</button>
         <button type="button" onclick="document.getElementById('a').innerHTML='我又回来了'">再点一下</button>
         <!-- / /改变图片地址 -->
-        <button type="button" onclick="document.getElementById('img').src='F:\VScode\github\souls\.github\workflows\image\timg1.jpg'" height ="200" weight="100">换个图片</button>
-        <img src="F:\VScode\github\souls\.github\workflows\image\timg.jpg" id = "img" style="text-align: center;" height="200" weight="100">
-        <button type="button" onclick="document.getElementById('img').src='F:\VScode\github\souls\.github\workflows\image\timg.jpg'">换回来</button>
+        <button  onclick="img()" height ="200" weight="100">换个图片</button>
+        <img src="F:\VScode\github\souls\.github\workflows\image\a.jpg" id = "img" style="text-align: center;" height="200" weight="100">
+        <button  onclick="img1()">换回来</button>
+        <!-- 改变css样式 -->
+        <p id="style">javascript变大变小</p>
+        <button type="button" onclick="document.getElementById('style').style.fontSize='36px'">变大看看</button>
+        <button type="button" onclick="document.getElementById('style').style.fontSize='30px'">变小变小</button>
+        <!-- 隐藏显示元素 -->
+        <p id="hidden">knightsouls显示和隐藏</p>
+        <button type="button" onclick="document.getElementById('hidden').style.display='none'"  >隐藏</button>
+        <button onclick="document.getElementById('hidden').style.display='block'">显示</button>
+        <!-- javascript改变文字 -->
+        <p id="no">不要说话</p>
+        <button onclick="chiled()" >按钮</button><button onclick="chiled2()" >下一句</button>
+        <!-- 弹框 -->
+        <button type="button" onclick="mylove()" id="mylove">弹出提示框</button>
+        <!-- 引入外部javascript文件 -->
+        <p id="s">测试文件</p>
+        <button type="button" onclick="s()">测试按钮</button>
     </body>
 </html>
