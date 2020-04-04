@@ -1,0 +1,36 @@
+#aa{
+    font-style: 20px;
+    color: aqua;
+    margin-left: 100px;
+}
+
+
+body{
+    padding: 0%;
+    margin: 0%;
+    color: red;
+}
+#h3{
+    color: greenyellow;
+}
+.ex{
+    color:blue;
+}
+#h1{
+    background-color: greenyellow;
+}
+#h2{
+    background-color: hotpink;
+}
+#p{
+    background-color: khaki;
+}
+span.bk{
+    background-color:blue;
+}
+#div{
+    width: 200px;
+    height: 100px;
+    background-image: url(.github\CSS\HTML\img\t1.png) no-repeat 0px;
+    border: 1px solid red;
+}

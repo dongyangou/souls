@@ -10,7 +10,7 @@
             "name": "Launch Chrome against localhost",
             "url": "${file}",
             "webRoot": "${workspaceFolder}",
-            "cwd": "${fileDirname}"
+            "cwd": "${fileDirname}",
         }
     ]
 }
