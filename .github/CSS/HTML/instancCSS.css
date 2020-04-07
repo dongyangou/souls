@@ -34,7 +34,7 @@ span.bk{
     background-image: url(.github\CSS\HTML\img\t1.png) no-repeat 0px;
     border: 1px solid red;
 }
-#table{
+/* #table{
     margin: 3px;
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -59,4 +59,4 @@ span.bk{
 }
 #table tr.tr td{
     background-color: #EAF2D3;
-}
+} */
