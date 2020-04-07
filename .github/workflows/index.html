@@ -1,90 +1,96 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-            <title>souls</title>
-            <script>
-                function chiled(){
-                    document.getElementById('no').innerHTML='愿意在角落唱沙哑的歌'
-                }
-                function chiled2(){
-                    document.getElementById('no').innerHTML='灯光再亮也抱住你'
-                }
-            </script>
-        <script src="F:\VScode\github\souls\.github\workflows\test.js"></script>
-   </head>
-    <h1>第一个web页面strat</h1>
+
+<head>
+    <meta charset="utf-8">
+    <title>souls</title>
     <script>
-        document.write(Date());        
+        function chiled() {
+            document.getElementById('no').innerHTML = '愿意在角落唱沙哑的歌'
+        }
+        function chiled2() {
+            document.getElementById('no').innerHTML = '灯光再亮也抱住你'
+        }
     </script>
-    <body>
-        <!-- / /javascript 改变页面文字 -->
-        <p id="a">s啥玩意啊</p>
-        <button type="button" onclick="document.getElementById('a').innerHTML='没有惊喜'">点击一下有惊喜</button>
-        <button type="button" onclick="document.getElementById('a').innerHTML='我又回来了'">再点一下</button>
-        <!-- / /改变图片地址 -->
-        <button  onclick="img()" height ="200" weight="100">换个图片</button>
-        <img src="F:\VScode\github\souls\.github\workflows\image\a.jpg" id = "img" style="text-align: center;" height="200" weight="100">
-        <button  onclick="img1()">换回来</button>
-        <!-- 改变css样式 -->
-        <p id="style">javascript变大变小</p>
-        <button type="button" onclick="document.getElementById('style').style.fontSize='36px'">变大看看</button>
-        <button type="button" onclick="document.getElementById('style').style.fontSize='30px'">变小变小</button>
-        <!-- 隐藏显示元素 -->
-        <p id="hidden">knightsouls显示和隐藏</p>
-        <button type="button" onclick="document.getElementById('hidden').style.display='none'"  >隐藏</button>
-        <button onclick="document.getElementById('hidden').style.display='block'">显示</button>
-        <!-- javascript改变文字 -->
-        <p id="no">不要说话</p>
-        <button onclick="chiled()" >按钮</button><button onclick="chiled2()" >下一句</button>
-        <script>
-            function chiled(){
-                document.getElementById('no').innerHTML='愿意用黑色铅笔在地上画圈圈';
-            }
-        </script>
-        <!-- 弹框 -->
-        <button type="button" onclick="mylove()" id="mylove">弹出提示框</button>
-        <script>
-            function mylove(){
-                window.alert("弹窗提示");
-            }
-        </script>
-        <!-- 引入外部javascript文件 -->
-        <p id="s">测试文件</p>
-        <button type="button" onclick="s()">测试按钮</button>
-        <!-- 函数计算 -->
-        <p id="sa">函数计算</p>
-        <button onclick="sa()" type="button">点击计算结果</button>
-        <!-- 大写敏感 -->
-        <p id="sb">函数里面有lsatname和lastName</p>
-        <button onclick="sb()">这里显示的是lastname</button>
-        <button onclick="sb1()">这里显示的是lastName</button>
-        <!-- 字符串和数据的引用 -->
-        <p id="sc"></p>
-        <button onclick="sc()">chekedme</button>
+    <script src="./test.js"></script>
+</head>
+<h1>第一个web页面strat</h1>
+<script>
+    document.write(Date());        
+</script>
 
-        <!-- 运算符应用 -->
-        <p id="sd"></p>
-        <button onclick="sd()" type="button" weight = "30" color="red">按钮</button>
+<body>
+    <!-- / /javascript 改变页面文字 -->
+    <p id="a">s啥玩意啊</p>
+    <button type="button" onclick="document.getElementById('a').innerHTML='没有惊喜'">点击一下有惊喜</button>
+    <button type="button" onclick="document.getElementById('a').innerHTML='我又回来了'">再点一下</button>
+    <!-- / /改变图片地址 -->
+    <button onclick="img()" height="200" weight="100">换个图片</button>
+    <img src="./image/a.jpg" id="img" style="text-align: center;" height="200"
+        weight="100">
+    <button onclick="img1()">换回来</button>
+    <!-- 改变css样式 -->
+    <p id="style">javascript变大变小</p>
+    <button type="button" onclick="document.getElementById('style').style.fontSize='36px'">变大看看</button>
+    <button type="button" onclick="document.getElementById('style').style.fontSize='30px'">变小变小</button>
+    <!-- 隐藏显示元素 -->
+    <p id="hidden">knightsouls显示和隐藏</p>
+    <button type="button" onclick="document.getElementById('hidden').style.display='none'">隐藏</button>
+    <button onclick="document.getElementById('hidden').style.display='block'">显示</button>
+    <!-- javascript改变文字 -->
+    <p id="no">不要说话</p>
+    <button onclick="chiled()">按钮</button><button onclick="chiled2()">下一句</button>
+    <script>
+        function chiled() {
+            document.getElementById('no').innerHTML = '愿意用黑色铅笔在地上画圈圈';
+        }
+    </script>
+    <!-- 弹框 -->
+    <button type="button" onclick="mylove()" id="mylove">弹出提示框</button>
+    <script>
+        function mylove() {
+            window.alert("弹窗提示");
+        }
+    </script>
+    <!-- 引入外部javascript文件 -->
+    <p id="s">测试文件</p>
+    <button type="button" onclick="s()">测试按钮</button>
+    <!-- 函数计算 -->
+    <p id="sa">函数计算</p>
+    <button onclick="sa()" type="button">点击计算结果</button>
+    <!-- 大写敏感 -->
+    <p id="sb">函数里面有lsatname和lastName</p>
+    <button onclick="sb()">这里显示的是lastname</button>
+    <button onclick="sb1()">这里显示的是lastName</button>
+    <!-- 字符串和数据的引用 -->
+    <p id="sc"></p>
+    <button onclick="sc()">chekedme</button>
 
-        <!--创建对象 -->
-        <p id="se"></p>
-        <button onclick="se()" type="button">创建一个对象</button>
+    <!-- 运算符应用 -->
+    <p id="sd"></p>
+    <button onclick="sd()" type="button" weight="30" color="red">按钮</button>
 
-        <!-- 调用对象里面的初始化信息 -->
-        <p id="sf"></p>
-        <button onclick="sf()" type="button">调用对象里面的方法</button>
-        <button onclick="sg()" type="button">隐藏对象</button>
+    <!--创建对象 -->
+    <p id="se"></p>
+    <button onclick="se()" type="button">创建一个对象</button>
 
-        <!-- 带参函数 -->
-        <input id="aa" value=""/>
-        <input id="ab" value="">
-        <p id="ac"></p>
-        <button onclick="aa()">提交</button>
-        
-        <a href="\image\a.jpg"></a>
+    <!-- 调用对象里面的初始化信息 -->
+    <p id="sf"></p>
+    <button onclick="sf()" type="button">调用对象里面的方法</button>
+    <button onclick="sg()" type="button">隐藏对象</button>
+
+    <!-- 带参函数 -->
+    <input id="aa" value="" />
+    <input id="ab" value="">
+    <p id="ac"></p>
+    <button onclick="aa()">提交</button>
+
+    <a href="./image/a.jpg">这是一个链接</a>
+
+    <img src="./image/a.jpg" width="200" height="200" />
 
 
 
-    </body>
+</body>
+
 </html>
