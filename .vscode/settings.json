@@ -1,3 +1,33 @@
 {
-    "colorHelper.disableShadow": true
-}
+    "colorHelper.disableShadow": true,
+    "path-intellisense.mappings": {
+      "@components": "${workspaceRoot}/src/components",
+      "components": "${workspaceRoot}/src/hudson/components",
+      "appRedux": "${workspaceRoot}/src/hudson/appRedux",
+      "@assets": "${workspaceRoot}/src/assets",
+      "assets": "${workspaceRoot}/src/hudson/assets",
+      "@icon": "${workspaceRoot}/src/assets/icon",
+      "containers": "${workspaceRoot}/src/hudson/containers",
+      "lngProvider": "${workspaceRoot}/src/hudson/lngProvider",
+      "constants": "${workspaceRoot}/src/hudson/constants",
+      "common": "${workspaceRoot}/src/hudson/common",
+      "@util": "${workspaceRoot}/src/util",
+      "util": "${workspaceRoot}/src/hudson/util"
+    },
+    // https://marketplace.visualstudio.com/items?itemName=Prettier.prettier-vscode
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "prettier.singleQuote": true,
+    "prettier.printWidth": 150,
+    "prettier.semi": true,
+    "prettier.trailingComma": "es5",
+    "prettier.bracketSpacing": true,
+    "eslint.enable": true,
+    "editor.formatOnSave": false,
+    "prettier.jsonEnable": [
+      "json"
+    ],
+    "typescript.tsdk": "node_modules/typescript/lib"
+  }

@@ -4,11 +4,11 @@ function s(){
 
 
 function img(){
-    document.getElementById("img").src="F:\VScode\github\souls\.github\workflows\image\a.jpg"
+    document.getElementById("img").src="./image/b.jpg"
 }
 
 function img1(){
-    document.getElementById("img1").src="F:\VScode\github\souls\.github\workflows\image\b.jpg"
+    document.getElementById("img").src="./image/a.jpg"
 }
 
 function chiled(){
