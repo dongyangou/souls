@@ -60,3 +60,15 @@ span.bk{
 #table tr.tr td{
     background-color: #EAF2D3;
 } */
+
+p#small{
+    line-height: 90%;
+    display: inline;
+}
+
+p#big{
+    line-height: 150%;
+}
+p#big span{
+    display: block;
+}

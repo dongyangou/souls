@@ -104,21 +104,26 @@
             <li>茶</li>
             <li>可口可乐</li>
         </ul> -->
-        <style type="text/css">
+        <!-- <style type="text/css">
             #table{
                 width: 500px;   
             }
             #table tr.tr th{
+                padding: 4px 5px 4px 7px;
                 font-size: 1.1em;
                 font-family: Arial, Helvetica, sans-serif;
                 background-color: greenyellow;
                 color: honeydew;
+                text-align: left;    
             }
             #table tr.tr{
                 background-color: lavender;
             }
             #table tr td{
-                
+                padding: 3px 4px 3px 6px;
+                font-size: 1em;
+                font-family: Arial, Helvetica, sans-serif;
+                color: black;
             }
         </style>
         <table id="table">
@@ -156,8 +161,156 @@
                 <td>Nokia</td>
                 <td>Stephen Elop</td>
                 <td></td>
-                </tr>
-        </table>
-        <a href="./image/a.jpg"></a>
-    </body>
+            </tr>
+        </table> -->
+        <!--行高行距设置 
+            <p>
+            这是拥有标准行高的段落。
+            在大多数浏览器中默认行高大约是 110% 到 120%。
+            这是拥有标准行高的段落。
+            这是拥有标准行高的段落。
+            这是拥有标准行高的段落。
+            这是拥有标准行高的段落。
+            这是拥有标准行高的段落。
+        </p>
+        <p id="small">
+            这个段落拥有更小的行高。
+            这个段落拥有更小的行高。
+            这个段落拥有更小的行高。
+            这个段落拥有更小的行高。
+            这个段落拥有更小的行高。
+            这个段落拥有更小的行高。
+            这个段落拥有更小的行高。
+        </p>
+        <p id="big">
+            <span> 这个段落拥有更大的行高。</span>
+            <span>这个段落拥有更大的行高。</span> 
+            这个段落拥有更大的行高。
+            这个段落拥有更大的行高。
+            这个段落拥有更大的行高。
+            这个段落拥有更大的行高。
+            这个段落拥有更大的行高。
+        </p> -->
+        <!-- <style type="text/css">
+            div{
+                width: 120px;
+                float: right;
+                border:1px dotted black;
+                margin: 0px 4px 3px 4px;
+                padding: 10px;
+            }
+            body{
+                width: 300px;
+            }
+            span{
+                float: left;
+                font: 30px;
+                font: ;
+            }
+        </style>
+        浮动
+        <div> 
+            <img src="./img/eg_cute.gif" /><br />
+            CSS is fun!
+        </div>
+        <p>
+            This is some text. This is some text. This is some text.
+            This is some text. This is some text. This is some text.
+            This is some text. This is some text. This is some text.
+            This is some text. This is some text. This is some text.
+            This is some text. This is some text. This is some text.
+            This is some text. This is some text. This is some text.
+            This is some text. This is some text. This is some text.
+            This is some text. This is some text. This is some text.
+            This is some text. This is some text. This is some text.
+            This is some text. This is some text. This is some text.
+            This is some text. This is some text. This is some text.
+            This is some text. This is some text. This is some text.
+            This is some text. This is some text. This is some text.
+        </p>
+        <p>
+            <span>This</span> is some text.
+            This is some text. This is some text.
+            This is some text. This is some text. This is some text.
+            This is some text. This is some text. This is some text.
+            This is some text. This is some text. This is some text.
+            This is some text. This is some text. This is some text.
+            This is some text. This is some text. This is some text.
+            This is some text. This is some text. This is some text.
+            </p>   -->
+            <!-- 创建水平菜单
+                <style type="text/css">
+                ul{
+                    width: 400px;
+                    float: left;
+                    list-style-type: none;
+                    padding: 0px;
+                    margin: 0px;
+                }
+                ul li a{
+                    float: left;
+                    font-size: 1em;
+                    background-color: orchid;
+                    color: seashell;
+                    text-decoration: none;
+                    padding:0.2em 0.6em;
+                    border-left: 1px solid white;
+                }
+                a:hover{
+                    background-color: red;
+                }
+            </style>
+            <ul>
+                <li><a href="#">line one</a></li>
+                <li><a href="#">line two</a></li>
+                <li><a href="#">line three</a></li>
+                <li><a href="#">line four</a></li>
+            </ul> -->
+            <style type="text/css">
+                .container{
+                    width:600px;
+                    margin:0px;
+                    border:1px solid gray;
+                    line-height:150%;
+                }
+                div.header,div.footer
+                {
+                    padding:0.5em;
+                    color:white;
+                    background-color:gray;
+                }
+                h1.header
+                {
+                    padding:0;
+                    margin:0;
+                }
+                div.left
+                {
+                    float:left;
+                    width:160px;
+                    margin:0;
+                    padding: 1em;
+                }
+                div.content
+                {
+                    border-left:1px solid gray;
+                    padding:1em;
+                }
+            </style>
+                <div class="container">
+                    <div class="header"><h1 class="header">W3School.com.cn</h1></div>
+                    <div class="left">
+                        <p>"Never increase, beyond what is necessary, the number of entities required to explain anything." William of Ockham (1285-1349)</p>
+                    </div>
+                    
+                    <div class="content">
+                        <h2>Free Web Building Tutorials</h2>
+                        <p>At W3School.com.cn you will find all the Web-building tutorials you need,
+                        from basic HTML and XHTML to advanced XML, XSL, Multimedia and WAP.</p>
+                        <p>W3School.com.cn - The Largest Web Developers Site On The Net!</p>
+                    </div>
+                    
+                    <div class="footer">Copyright 2008 by YingKe Investment.</div>
+                </div>
+        </body>
 </html>
